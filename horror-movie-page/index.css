@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  overflow: hidden;
+}
+
+h1,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  width: 70%;
+  height: 80%;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./img/bg.png") no-repeat;
+
+  background-size: cover;
+  border-radius: 20px;
+  display: none;
+}
+
+.left,
+.right {
+  width: 50%;
+  height: 100%;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.left .title {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.left .desc {
+  width: 80%;
+  color: rgb(184, 184, 184);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  margin: 10px 0 20px 0;
+}
+
+.left .trailer-container {
+  position: relative;
+  width: 80%;
+  height: 40%;
+  border-radius: 10px;
+
+  background: url("./img/trailer.jpg");
+  background-size: cover;
+}
+
+.left .trailer-container .play {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.right {
+  position: relative;
+}
+
+.right .title-img {
+  width: 80%;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+.buy {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.arrow {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.about {
+  list-style: none;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-weight: 200;
+}
+
+.about-item {
+  display: inline;
+  margin-right: 10px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.kid {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  animation: move 8s linear infinite;
+}
+
+.video-container {
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.video {
+  animation: video 18s linear;
+}
+
+.active {
+  display: flex;
+}
+
+@keyframes move {
+  0%,
+  48%,
+  51%,
+  100% {
+    opacity: 0;
+  }
+
+  49%,
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes video {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 120%;
+  }
+}

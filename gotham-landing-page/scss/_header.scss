@@ -1,0 +1,35 @@
+/* ============================= */
+/* Header ====================== */
+/* ============================= */
+.header-footer {
+  height: 67px;
+  width: 100%;
+  background-color: #f7c61d;
+
+  .wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+.header {
+  @extend .header-footer;
+}
+.wrapper {
+  width: 1170px;
+  height: 100%;
+  margin: 0 auto;
+}
+.header nav {
+  ul {
+    display: flex;
+    justify-content: space-between;
+    a {
+      font-family: Proxima;
+      color: #000;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 0 35px;
+    }
+  }
+}
