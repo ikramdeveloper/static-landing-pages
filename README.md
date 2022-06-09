@@ -4,7 +4,7 @@ Different landing pages using HTML, CSS, JS, Bootstrap & SASS
 
 [Exotic Car Landing Page](https://github.com/ikramdeveloper/static-landing-pages/tree/master/exotic-car-landing-page)
 
-[Gotham Landing Page](https://github.com/ikramdeveloper/static-landing-pages/tree/master/gothan-landing-page)
+[Gotham Landing Page](https://github.com/ikramdeveloper/static-landing-pages/tree/master/gotham-landing-page)
 
 [Horror Movie Page](https://github.com/ikramdeveloper/static-landing-pages/tree/master/horror-movie-page)
 
@@ -16,7 +16,7 @@ Different landing pages using HTML, CSS, JS, Bootstrap & SASS
 
 [Netflix Landing Page](https://github.com/ikramdeveloper/static-landing-pages/tree/master/netflix-landing-page)
 
-[Pluralsight Login Page](https://github.com/ikramdeveloper/static-landing-pages/tree/master/pluralsight-page)
+[Pluralsight Login Page](https://github.com/ikramdeveloper/static-landing-pages/tree/master/pluralsight-login)
 
 [Product Landing Page](https://github.com/ikramdeveloper/static-landing-pages/tree/master/product-landing-page)
 
